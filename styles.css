@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.main{
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/food-quotes-cover-1664300432.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+}
+.container{
+    display: inline-flex;
+    position: absolute; 
+     right: 0;
+}
+li{
+    list-style-type: none;
+    margin-top: 10px;
+    padding:10px 25px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+.about{
+    background-color: lightyellow;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu .left{
+    text-align: center;
+    padding-top: 20px;
+    flex-basis: 50%;
+}
+.menu .left h1{
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.menu .right{
+    flex-basis: 50%;
+}
+.menu .right .dosa{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 30%;
+    border-radius: 50%;
+}
+.menu1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu1 .left1{
+    flex-basis: 50%;
+}
+.menu1 .left1 .dosa{
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 30%;
+    width: 40%;
+    border-radius: 10%;
+    
+}
+.menu1 .right1 h1{
+    text-align: center;
+    padding-right: 20px;
+    margin-top: 15%;
+}
+.menu1 .right1{
+    text-align: center;
+    padding-top: 20px;
+    flex-basis: 50%;
+}
+.h1{
+    text-align: center;
+}
+.align{
+    text-align: center;
+}
+.align1{
+    margin-left: 15%;
+}
+a:hover{
+    color: aliceblue;
+}
+@media only screen {
+    .main{
+        background-position: left;
+        background-size: cover;
+    }
+}
